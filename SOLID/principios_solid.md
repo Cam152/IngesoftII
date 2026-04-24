@@ -4,7 +4,7 @@ Los principios SOLID son cinco reglas del diseño de software orientado a objeto
 
 ---
 
-## S — Single Responsibility Principle (Principio de Responsabilidad Única)
+## SRP — Single Responsibility Principle (Principio de Responsabilidad Única)
 
 > *"Una clase debe tener una, y solo una, razón para cambiar."*
 
@@ -48,7 +48,7 @@ Cada clase tiene una única razón para cambiar: `Usuario` si cambia el modelo, 
 
 ---
 
-## O — Open/Closed Principle (Principio Abierto/Cerrado)
+## OCP — Open/Closed Principle (Principio Abierto/Cerrado)
 
 > *"Las entidades de software deben estar abiertas para extensión, pero cerradas para modificación."*
 
@@ -97,7 +97,7 @@ Agregar un nuevo tipo de descuento no requiere tocar `CalculadoraDescuento`.
 
 ---
 
-## L — Liskov Substitution Principle (Principio de Sustitución de Liskov)
+## LSP — Liskov Substitution Principle (Principio de Sustitución de Liskov)
 
 > *"Los objetos de una subclase deben poder reemplazar a los de la clase base sin alterar el comportamiento correcto del programa."*
 
@@ -164,7 +164,7 @@ Ambas clases cumplen el contrato de `Forma` sin comportamientos inesperados.
 
 ---
 
-## I — Interface Segregation Principle (Principio de Segregación de Interfaces)
+## ISP — Interface Segregation Principle (Principio de Segregación de Interfaces)
 
 > *"Los clientes no deben estar obligados a depender de interfaces que no utilizan."*
 
@@ -227,7 +227,7 @@ Cada clase implementa únicamente las interfaces que le corresponden.
 
 ---
 
-## D — Dependency Inversion Principle (Principio de Inversión de Dependencias)
+## DIP — Dependency Inversion Principle (Principio de Inversión de Dependencias)
 
 > *"Los módulos de alto nivel no deben depender de módulos de bajo nivel. Ambos deben depender de abstracciones."*
 
