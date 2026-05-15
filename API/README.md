@@ -1,7 +1,6 @@
 # Tarea REST API — Studio Ghibli API
 
 **API usada:** https://ghibliapi.vercel.app  
-**Sin token — completamente pública**
 
 ---
 
